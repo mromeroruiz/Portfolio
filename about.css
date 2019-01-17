@@ -1,5 +1,35 @@
-#about {
+.column {
+    float: left;
     background-Color: darkslategray;
-    height: 100vh;
+    height: 300pt;
+    padding: 10px;
+    width: 33.33%;
     color: white;
+    /*box-shadow: 2px 2px 2px 2px red;*/
+}
+
+#about-picture {
+    float:left;
+    width:33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+#profile-pic{
+    width: 15vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 2em;
+    left: 50px;
+
+    box-shadow: 2px 2px 2px 2px red;
+}
+#aboutme {
+    width: 40vw;
+    position: relative;
+    padding: 20px;
+    top: -300px;
+    left: -170px;
+    float: right;
+    box-shadow: 2px 2px 2px 2px blue;
 }

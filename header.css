@@ -1,5 +1,8 @@
 #header {
     background-color: rgb(71, 99, 98);
-    height: 80vh;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
     color: white;
+    box-shadow: 2px 2px 2px 2px green;
 }
