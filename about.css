@@ -22,7 +22,7 @@
     border-radius: 2em;
     left: 50px;
 
-    box-shadow: 2px 2px 2px 2px red;
+    /*box-shadow: 2px 2px 2px 2px red;*/
 }
 #aboutme {
     width: 40vw;
