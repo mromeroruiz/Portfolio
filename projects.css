@@ -1,6 +1,32 @@
 #portfolio {
     background-color: rgb(71, 99, 98);
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
     /*box-shadow: 2px 2px 2px 2px yellow;*/ 
 }
+.pictures {
+
+}
+.pictures img {
+    position: relative;
+    padding: 25px;
+    margin: 25px;
+    top: 150px;
+    float: left;
+    width:  330px;
+    height: 300px;
+    background-position: 50% 50%;
+    border-radius: 2em;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.divpics:hover {
+    opacity: 0.8;
+}
+#projhead {
+    text-align: center;
+    padding: 40px;
+}
+
+
+

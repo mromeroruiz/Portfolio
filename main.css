@@ -1,9 +1,55 @@
 @import "about.css";
 @import "body.css";
-@import "contact.css";
-@import "footer.css";
-@import "header.css";
-@import "navbar.css";
-@import "projects.css";
+@import "projects.css"; 
+
+body{
+    background-color: darkslategray;
+    font-family: sans-serif;
+    color: white;
+    text-align:left;
+}
+
+nav{
+    background-color: darkslategray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+}
 
 
+
+#brand{
+    float:left;
+}
+h1 {
+    font-size: 40pt;
+    font-family: 'Acme', sans-serif;
+}
+h2 {
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+.nav-link{
+    color: darkred;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: lightblue;
+}
+
+
+#header {
+    text-align: center;
+    padding: 70px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+
+}
+.container {
+    position: relative;
+    top: 30px;
+}

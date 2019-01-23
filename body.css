@@ -5,3 +5,31 @@ body {
     font-family: sans-serif;
     background-color: rgb(71, 99, 98);
 }
+#footer {
+
+    font-family: sans-serif;
+    bottom:0;
+    margin-top: 30px;
+    width: 100vw;
+    height:80px;
+    background: #343A40;
+    padding: 18px;
+    clear:both;
+    
+ }
+ .footwords {
+     position:relative;
+     top:10px;
+     left:30px;
+ }
+ #social-btns a {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    margin: 2em;
+    left: 80vw;
+    top: -30px;
+}
+#social-btns a:hover {
+    color: grey;
+}

@@ -1,35 +1,52 @@
 .column {
     float: left;
     background-Color: darkslategray;
-    height: 300pt;
+    height: 500pt;
     padding: 10px;
-    width: 33.33%;
+    width: 34%;
     color: white;
     /*box-shadow: 2px 2px 2px 2px red;*/
 }
 
+@media (max-width: 580px)
+{
+.wrapper {
+    grid-template-areas: 
+      'header header header header header header' 
+      'column column column column column column' 
+      'columntwo columntwo columntwo columntwo' ;
+}
+}
+.columntwo {
+    float: left;
+    background-color: darkslateblue;
+    height:500pt;
+    padding: 20px;
+    width: 66%;
+    color: white;
+
+    text-align:center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #about-picture {
     float:left;
-    width:33.33%;
+    width:32%;
     padding: 10px;
     height: 300px;
 
 }
-#profile-pic{
-    width: 15vw;
-    height: 40vh;
+#pictureOne{
+    width: 100;
+    height: 400px;
+    margin: 40px;
     object-fit: cover;
     border-radius: 2em;
-    left: 50px;
-
+    left: 20px;
     /*box-shadow: 2px 2px 2px 2px red;*/
-}
-#aboutme {
-    width: 40vw;
-    position: relative;
-    padding: 20px;
-    top: -300px;
-    left: -170px;
-    float: right;
-    box-shadow: 2px 2px 2px 2px blue;
 }
