@@ -7,6 +7,9 @@ body{
     font-family: sans-serif;
     color: white;
     text-align:left;
+    max-width: 100%;
+    overflow-x: hidden;
+    
 }
 
 nav{
@@ -21,9 +24,7 @@ nav{
 
 
 
-#brand{
-    float:left;
-}
+
 h1 {
     font-size: 40pt;
     font-family: 'Acme', sans-serif;
