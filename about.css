@@ -16,6 +16,10 @@
       'column column column column column column' 
       'columntwo columntwo columntwo columntwo' ;
 }
+@media screen and (device-aspect-ratio: 40/71) 
+{
+
+}
 }
 .columntwo {
     float: left;
@@ -24,11 +28,18 @@
     padding: 20px;
     width: 66%;
     color: white;
-
+    min-height: 100%;
     text-align:center;
 }
 
+#aboutwords {
+    position: relative;
+    font-size: 16px;
+    height:80%;
+    width: 95%;
+    overflow: auto;
 
+}
 
 #about-picture {
     float:left;
@@ -38,7 +49,7 @@
 
 }
 #pictureOne{
-    height: 400px;
+    width: 80%;
     margin: 40px;
     object-fit: cover;
     border-radius: 2em;
